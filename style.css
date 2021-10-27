@@ -1,0 +1,60 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: black;
+  font-size: x-large;
+  text-align: center;
+}
+
+.arrows {
+  font-size: xx-large;
+  position: fixed;
+  z-index: 2;
+  margin-top: 0%;
+  height: 30vh;
+  width: 5%;
+}
+
+.arrows.left {
+  color: aqua;
+  border: 1px solid blue;
+  margin-left: 1.3%;
+  padding-top: 24vh;
+  /* filter: grayscale(50%); */
+}
+
+.arrows.right {
+  color: blueviolet;
+  border: 1px solid blue;
+  margin-left: 54%;
+  padding-top: 24vh;
+}
+
+.slider {
+  overflow: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+  width: 60%;
+  margin-top: 10vh;
+  margin-left: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.assets {
+  display: flex;
+  position: relative;
+}
+
+.slider img {
+  width: 75%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10%;
+  scroll-snap-type: x proximity;
+  scroll-snap-align: start;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Slider Arrow</title>
+  </head>
+  <body>
+    <h1>Slider with Arrows</h1>
+    <div class="slider" id="slider" onscroll="moveSlide()">
+      <div class="arrows">
+        <p class="arrows left" onclick="moveLeft()">←</p>
+        <p class="arrows right" onclick="moveRight()">→</p>
+      </div>
+      <div class="assets" id="assets">
+        <img src="./assets/barista.jpg" alt="" />
+        <img src="./assets/chef.jpg" alt="" />
+        <img src="./assets/italian.jpg" alt="" />
+        <img src="./assets/barista.jpg" alt="" />
+        <img src="./assets/chef.jpg" alt="" />
+        <img src="./assets/italian.jpg" alt="" />
+      </div>
+    </div>
+    <p id="demo">test</p>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
